@@ -1,0 +1,39 @@
+
+.sides {
+	margin-right: 5%;
+	margin-left: 5%;	
+}
+
+@media (min-width: 768px) {
+	.sides {
+		margin-right: 20%;
+		margin-left: 20%;	
+	}
+}
+
+a {
+	text-decoration: none;
+}
+
+.card {
+	@extend .z-depth-1;
+	background-color: #ffffff;
+	display: block;
+	border-radius: 2px;
+	padding: 1rem;
+
+
+	&:link {
+		border-left: 5px solid #40C4FF;
+		color: #40C4FF;
+		transition: box-shadow 0.5s;
+		&:hover {
+			@extend .z-depth-4;
+		}
+	}
+	&:visited {
+		border-left: 5px solid #40C4FF;
+		color: #40C4FF;
+	}
+}
+

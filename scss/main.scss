@@ -1,0 +1,37 @@
+@import "shadows.scss";
+@import "jumbo.scss";
+@import "card.scss";
+
+.container {
+	background-image: url("/img/bg.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	min-height: 100vh;
+
+}
+
+.fullscreen {
+	height: 100vh;
+}
+
+.bottom-spacer {
+	margin-bottom: 3rem;
+}
+
+.vcenter {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+
+
+.sectionheader {
+	padding-top: 3rem;
+	font-size: 2em;
+	font-family: Roboto, sans-serif;
+	font-weight: 100;
+	color: #ffffff;
+	text-transform: uppercase;
+}
