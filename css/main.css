@@ -53,14 +53,18 @@ a {
     color: #40C4FF; }
 
 .container {
-  background-image: url("/img/bg.jpg");
+  background-image: url("../img/bg.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  position:absolute;
+  width:100%;
+  top:0;
+  /*bottom:100px;*/
   min-height: 100vh; }
 
 .fullscreen {
-  height: 100vh; }
+  min-height: 100vh; }
 
 .bottom-spacer {
   margin-bottom: 3rem; }
@@ -80,3 +84,16 @@ a {
   text-transform: uppercase; }
 
 /*# sourceMappingURL=main.css.map */
+
+/* 2016 clubfair */
+h1.newsignup {
+  font-weight:400;
+  font-size:3em;
+  text-align:center;
+}
+
+.grid_fullwidth {
+  width:100%;
+  font-size:1.5em;
+  text-align: center;
+}
